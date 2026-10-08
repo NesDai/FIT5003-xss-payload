@@ -6,8 +6,4 @@
 // 4. Click "update profile" submit form
 // 
 
-function n() {
-    window.location.href = "/profile"
-}
-
-n
+alert("ggelllll")
